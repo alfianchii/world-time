@@ -13,6 +13,8 @@ export default defineConfig({
 		}),
 		AutoImport({
 			imports: ["vue"],
+			dirs: ["src/composables"],
+			vueTemplate: true,
 		}),
 		UnoCSS(),
 	],

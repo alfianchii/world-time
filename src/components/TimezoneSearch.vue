@@ -1,8 +1,5 @@
 <script setup lang="ts">
-import { computed, ref } from "vue";
 import Fuse from "fuse.js";
-import { timezones } from "../composoables/data";
-import { addToTimezone } from "../composoables/state";
 import { Timezone } from "../types";
 
 const fuse = new Fuse(timezones, {

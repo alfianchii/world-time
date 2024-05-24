@@ -1,6 +1,4 @@
-<script setup lang="ts">
-import { zones } from "../composoables/state";
-</script>
+<script setup lang="ts"></script>
 
 <template>
 	<div>

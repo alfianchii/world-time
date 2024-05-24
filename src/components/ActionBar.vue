@@ -5,7 +5,7 @@ const props = defineProps<{
 </script>
 
 <template>
-	<div border="b base" p2>
+	<div border="b base" p4>
 		<TimezoneSearch />
 	</div>
 </template>

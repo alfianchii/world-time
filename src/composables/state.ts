@@ -1,4 +1,3 @@
-import { ref } from "vue";
 import type { Timezone } from "../types";
 
 export const zones = ref<Timezone[]>([]);

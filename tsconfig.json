@@ -1,15 +1,10 @@
 {
-	"files": [],
-	"references": [
-		{
-			"path": "./tsconfig.node.json"
-		},
-		{
-			"path": "./tsconfig.app.json"
-		}
-	],
 	"compilerOptions": {
-		"jsx": "preserve"
+		"baseUrl": ".",
+		"jsx": "preserve",
+		"paths": {
+			"~/*": ["./src/*"]
+		}
 	},
-	"include": ["src/**/*"]
+	"exclude": ["**/dist/**"]
 }
