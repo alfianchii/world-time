@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-	<Hello name="Alfian" />
+	<Hello name="alfian" />
 </template>
 
 <style>
