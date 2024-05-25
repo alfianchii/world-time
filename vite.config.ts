@@ -17,7 +17,7 @@ export default defineConfig({
 			dts: true,
 		}),
 		AutoImport({
-			imports: ["vue", "vue/macros"],
+			imports: ["vue", "vue/macros", "@vueuse/core"],
 			dirs: ["src/composables"],
 			vueTemplate: true,
 		}),
