@@ -4,7 +4,8 @@
 		"jsx": "preserve",
 		"paths": {
 			"~/*": ["./src/*"]
-		}
+		},
+		"esModuleInterop": true
 	},
 	"exclude": ["**/dist/**"]
 }
