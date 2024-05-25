@@ -6,6 +6,7 @@ export const timezones = timezoneRaw.flatMap((zone) => {
 			name: utc,
 			offset: zone.offset,
 			isdst: zone.isdst,
+			abbr: zone.abbr,
 		};
 	});
 });
