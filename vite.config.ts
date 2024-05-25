@@ -12,7 +12,7 @@ export default defineConfig({
 			dts: true,
 		}),
 		AutoImport({
-			imports: ["vue"],
+			imports: ["vue", "vue/macros"],
 			dirs: ["src/composables"],
 			vueTemplate: true,
 		}),

@@ -7,15 +7,16 @@ const fuse = new Fuse(timezones, {
 	threshold: 0.3,
 });
 
-const input = ref("");
-const index = ref(0);
+let input = $ref("");
+let index = $ref(0);
 const searchResult = computed(() => {
-	return fuse.search(input.value);
+	return fuse.search(input);
 });
 
 function add(t: Timezone) {
 	addToTimezone(t);
-	input.value = "";
+	input = "";
+	index = 0;
 }
 </script>
 
