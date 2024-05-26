@@ -7,7 +7,6 @@ const { timezone } = defineProps<{
 
 const formatter = new Intl.DateTimeFormat("en-US", {
 	timeZone: timezone.name,
-	hour12: false,
 	hour: "numeric",
 	minute: "numeric",
 });
