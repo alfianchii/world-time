@@ -11,6 +11,7 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
+    "date-fns": "^3.6.0",
     "fuse.js": "^7.0.0",
     "timezones.json": "^1.7.1",
     "vue": "^3.4.21"
