@@ -11,7 +11,7 @@ const hours = $computed(() => Array.from({ length: 24 }, (_, i) => i + timezone.
 const days = $computed(() => [
 	hours.filter((i: number) => i < 0).map((i: number) => (i + 24) % 24),
 	hours.filter((i: number) => i >= 0 && i < 24),
-	hours.filter((i: number) => i >= 24).map((i: number) => (i + 24) % 24),
+	hours.filter((i: number) => i >= 24).map((i: number) => i % 24),
 ]);
 
 function isMidnight(h: number) {
